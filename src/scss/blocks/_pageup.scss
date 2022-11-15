@@ -1,0 +1,25 @@
+.page-up {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    height: 30px;
+    width: 30px;
+    img {
+        width: 100%;
+    }
+}
+
+.page-up-smooth {
+    // display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 140px;
+    height: 30px;
+    width: 30px;
+    z-index: 1;
+    img {
+        width: 100%;
+        stroke-opacity: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.overlay {
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0,0,0, .56);
+    border: 0px;
+    &_active {
+        display: block;
+    }
+}
+
+.modal {
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    padding: 5px;
+    min-height: 50px;
+    &_active {
+        display: block;
+    }
+    &__close {
+        color: white;
+        position: absolute;
+        top: 0;
+        right: -20px;
+        cursor: pointer;
+    }
+}
+
+// #what-do-you-want {
+//     display: none;
+// }

@@ -1,0 +1,19 @@
+.button {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    // text-decoration: none;
+    background-color: $backround-color-btn;
+    @include border-radius(10px);
+    &:hover {
+        background-color: $backround-color-btn-hover;
+        cursor: pointer;
+    }
+    &.button_get-startdet {
+        border: 0px;
+        width: 192px;
+        height: 51px;
+    }    
+}
+

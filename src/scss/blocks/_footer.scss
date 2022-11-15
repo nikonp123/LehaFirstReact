@@ -1,0 +1,22 @@
+.footer {
+    display: block;
+
+    &__map {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__icon {
+        &_animated {
+            animation-play-state: paused;
+            animation-name: heartbeat;
+            animation-duration: 4s;
+            // animation-timing-function: ;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: running;
+            }
+        }
+    }
+
+}
